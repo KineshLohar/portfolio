@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3c07873e.css",
+    "main.js": "/portfolio/static/js/main.47877629.js",
+    "static/media/waiting.gif": "/portfolio/static/media/waiting.63dd28529b3484637784.gif",
+    "static/media/mernblog2.png": "/portfolio/static/media/mernblog2.b9fcc67ff4c077922363.png",
+    "static/media/educationcertification.jpeg": "/portfolio/static/media/educationcertification.0dbddc4a2ca44a66c5d8.jpeg",
+    "static/media/navbar-logo.png": "/portfolio/static/media/navbar-logo.0ef4b749c213419888e1.png",
+    "static/media/addlocation Screen.jpg": "/portfolio/static/media/addlocation Screen.de4443b5404f5c44a403.jpg",
+    "static/media/bpmhs-logo.png": "/portfolio/static/media/bpmhs-logo.60e60df1037c767c7fa0.png",
+    "static/media/ejs-blog.png": "/portfolio/static/media/ejs-blog.29fe96d1bd7891d36627.png",
+    "static/media/githubrepo.jpeg": "/portfolio/static/media/githubrepo.98e71187808bc7c0c602.jpeg",
+    "static/media/workexperience.jpeg": "/portfolio/static/media/workexperience.39479d5430d1e9883307.jpeg",
+    "static/media/user home.jpg": "/portfolio/static/media/user home.19c9f9939baff72ac087.jpg",
+    "static/media/projects.jpeg": "/portfolio/static/media/projects.2307c19b044a6bab5aeb.jpeg",
+    "static/media/skyscanner.jpeg": "/portfolio/static/media/skyscanner.6252945eb56f260ea3eb.jpeg",
+    "static/media/About screen.jpg": "/portfolio/static/media/About screen.b872f69aa8b0b5bd936a.jpg",
+    "static/media/Signup screen.jpg": "/portfolio/static/media/Signup screen.7e83e1a2753656adafb2.jpg",
+    "static/media/skills.jpeg": "/portfolio/static/media/skills.a0fd47c8e8a43b379d69.jpeg",
+    "static/media/accenture-logo.png": "/portfolio/static/media/accenture-logo.af6e73f7dc1d7af847c9.png",
+    "static/media/contact screen.jpg": "/portfolio/static/media/contact screen.7f0040a62ba0824e35ac.jpg",
+    "static/media/mernBlog.png": "/portfolio/static/media/mernBlog.a893c27f87d254d49653.png",
+    "static/media/photo-main.jpg": "/portfolio/static/media/photo-main.180a1894d74020b506c0.jpg",
+    "static/media/myaccount screen.jpg": "/portfolio/static/media/myaccount screen.88ace6dc6e495841ff7d.jpg",
+    "static/media/my added locations.jpg": "/portfolio/static/media/my added locations.49dfdf31edf95f101c4d.jpg",
+    "static/media/to-do-list-ejs.png": "/portfolio/static/media/to-do-list-ejs.6a2fb64a2ceb96e44852.png",
+    "index.html": "/portfolio/index.html",
+    "main.3c07873e.css.map": "/portfolio/static/css/main.3c07873e.css.map",
+    "main.47877629.js.map": "/portfolio/static/js/main.47877629.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c07873e.css",
+    "static/js/main.47877629.js"
+  ]
+}
