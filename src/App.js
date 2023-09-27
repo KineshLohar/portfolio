@@ -27,14 +27,12 @@ const Wrapper = ({children}) => {
 function App() {
 
   return (
-    <>
-    
     <HashRouter>
       <Wrapper>
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/portfolio" element={<Home />} /> 
           <Route path="/educationandcertification" element={<EducationAndCertification />} />
           <Route path="/workexperience" element={<WorkExperience />} />
           <Route path="/skills" element={<Skills />} />
@@ -46,7 +44,7 @@ function App() {
       </div>
       </Wrapper>
       </HashRouter>
-    </>
+
   );
 }
 
