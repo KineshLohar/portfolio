@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <Link to='/'><img src={navbarlogo} alt="navbar-logo" className="logo"/></Link>
+            <Link to='/portfolio'><img src={navbarlogo} alt="navbar-logo" className="logo"/></Link>
             <div className="desktopMenu">
 
                 {/* <Link className="desktopMenuListItem"  to="/">Home</Link>
