@@ -20,7 +20,7 @@ const Projects = () => {
                                 <h2 className="projectTitle">{proj.projectTitle}</h2>
                                 <p className="projectStack">{proj.tech}</p>
                                 <div style={{display:"flex", justifyContent:"space-between"}}>
-                                    <Link to={`/singleproject/${index}`}><button className="btnProject">Know More</button></Link>
+                                    <Link to={`portfolio/singleproject/${index}`}><button className="btnProject">Know More</button></Link>
                                     {
                                         proj.githubUrl !== '' &&  <Link to={proj.githubUrl}><button className="btnProject">Github Repository</button></Link>
                                     }                                                                       
