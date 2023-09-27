@@ -1,0 +1,61 @@
+.certificates{
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.certTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.certBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.certBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgb(50,50,50);
+    border-radius: 0.7rem;
+}
+
+.certImage{
+    object-fit: cover;
+    height: 3.7rem;
+    width: 3rem;
+    margin-right: 1rem;
+    border-radius: 0.7rem;
+}
+.certBarText {
+    color: aliceblue;
+}
+.certBarText>p{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:420px) {
+    .certBarText>h2 {
+        color: aliceblue;
+        font-size: 1.3rem
+    }
+    .certBarText>p{
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+    }
+    
+}

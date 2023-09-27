@@ -1,0 +1,192 @@
+
+#about{
+    width: 90vw;
+    max-width: 80rem;
+    margin: 3.5rem auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin: 2rem;
+}
+.aboutDesc{
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.socialIconsList {
+    display: flex;
+}
+
+.socialIcons {
+    margin: 1rem;
+}
+.socialIcon {
+    color: #f9f9f9;
+}
+.socialIcon:hover {
+    color: yellow;  
+}
+
+@media screen and (max-width:1024px) {
+    .aboutInfo{
+        width: 80vw;
+        
+    }
+    .aboutDesc{
+        font-size: 1.1rem;
+        line-height: 1.1;
+    }
+    .socialIconsList {
+        display: inline-block;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;;
+        text-align: center;
+    }
+    
+    .socialIcons {
+        margin: 0.7rem;
+        font-size: 0.9rem;
+    }
+    .socialIcon{
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width:930px) {
+    
+    .aboutInfo { 
+        width: 75vw;
+    }
+    .aboutDesc{
+        font-size: 1.3rem;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.3;
+    }
+    .socialIconsList {
+        display: inline-block;
+        margin-top: 0.5rem;
+        max-width: 75vw;
+        text-align: center;
+    }
+    
+    .socialIcons {
+        margin: 0.7rem;
+        font-size: 0.9rem;
+    }
+    .socialIcon{
+        margin-top: 0.5rem;
+    }
+    
+}
+
+@media screen and (max-width:660px) {
+    
+    .aboutInfo { 
+        width: 70vw;
+        max-width: 70vw;
+    }
+    .aboutDesc{
+        font-size: 1rem;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .socialIconsList {
+        display: inline-block;
+        margin-top: 0.5rem;
+        max-width: 65vw;
+        text-align: center;
+    }
+    
+    .socialIcons {
+        margin: 0.7rem;
+        font-size: 0.7rem;
+    }  
+    .socialIcon{
+        margin-top: 0.7rem;
+    }  
+   
+}
+
+@media screen and (max-width:570px){
+    .aboutInfo { 
+        width: 80vw;
+        max-width: 80vw;
+    }
+    .aboutDesc{
+        font-size: 1rem;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+}
+}
+
+@media screen and (max-width:420px){
+    .aboutInfo { 
+        width: 90vw;
+        max-width: 90vw;
+    }
+    .aboutDesc{
+        font-size: 1rem;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .socialIconsList {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+        max-width: 80vw;
+        text-align: center;
+    }
+    
+    .socialIcons {
+        margin: 0.7rem;
+        font-size: 0.7rem;
+    }  
+    .socialIcon{
+        margin-top: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width:420px){
+    .aboutInfo { 
+        width: 80vw;
+        max-width: 90vw;
+    }
+    .aboutDesc{
+        font-size: 0.9rem;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .socialIconsList {
+        display: inline-block;
+        margin-top: 0.5rem;
+        max-width: 80vw;
+        text-align: center;
+    }
+    
+    .socialIcons {
+        margin: 0.7rem;
+        font-size: 0.7rem;
+    }  
+    .socialIcon{
+        margin-top: 1rem;
+    }
+}

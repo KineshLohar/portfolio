@@ -1,0 +1,215 @@
+#home{
+    height: calc(100vh - 7rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.homeImages{
+    display: inline-block;
+    
+}
+.bg1{
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    right: 0;
+    object-fit: cover;
+    height: 70vh;
+    margin-right: 10%;
+    margin-top: 8rem;
+    width: 16vw;
+    border-radius: 5rem;
+    opacity: 80%;
+    border: none;
+}
+/* 
+.bg2{
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    right: 0;
+    object-fit: cover;
+    height: 60vh;
+    width: 13vw;
+    margin-top: 10rem;
+    border-radius: 5rem;
+    opacity: 80%;
+} */
+
+
+.introContent {
+    height: 90vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introText{
+    font-size: 2.5rem;
+}
+
+.introName {
+    color: yellow;
+    font-size: 4rem;
+}
+.introPara {
+    margin-top: 1rem;
+    font-size:large;
+    font-weight: 300;
+}
+.btn{
+    background: white;
+    margin: 2rem 0;
+    padding: 0.75rem 1.5rem;
+    /* border: 2px solid #FFB000; */
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: medium;
+    cursor: pointer;
+}
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.3rem;
+    height: 1rem;
+    margin-bottom:0.2rem ;
+}
+
+.btnDiv{
+    width: 10rem;
+}
+
+/*  --------------------------------- ABOUT ------------------------------------------- */
+hr {
+    color: whitesmoke;
+    width: 40%;
+    margin: auto;
+    
+}
+
+
+/* --------------------------- hyperlink Section ---------------------------- */
+
+
+
+/* --------------------------MEDIA QUERIES ------------------------------ */
+@media (min-width: 841px) and (max-width:980px) {
+    .bg1{
+        width: 38vw;
+    }
+}
+@media (min-width: 481px) and (max-width:840px) {
+    
+    .bg1{
+        margin-top: 10rem;
+        right: 1rem;
+        width: 17rem;
+        border-radius: 3rem;
+        opacity: 80%;
+        height: 60vh;
+        
+    }
+/*     
+    .bg2{
+        right: 2rem;
+        width: 9rem;
+        border-radius: 3rem;
+        opacity: 80%;
+    } */
+    .introContent{
+        font-size: 9vw;
+    }
+    /* .introPara {
+        font-size: 4.5vw;
+    } */ 
+
+    /* ------------------------- */
+
+    /* #about{
+        height: 100vh;
+    }
+    .aboutInfo p{
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .socialIconsList {
+        display: inline-block;
+        margin: 2rem;
+        text-align: center;
+    }
+    .socialIcons{
+        margin: 0.7rem;
+    }
+    .socialIcon{
+        font-size: 3.7rem;
+    } */
+
+    /* --------------------------- */
+/* 
+    .hyperlinksTiles{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr;    
+    }
+
+    .imageTile{
+        object-fit: cover;
+        height: 37vh;
+        margin: 0.9rem;
+        border-radius: 1rem;
+    } */
+
+} 
+@media screen and (max-width:480px) {
+    .bg1{
+        margin-top: 10rem;
+        right: -2vh;
+        height: 65vh;
+        width: 12rem;
+        border-radius: 1.5rem;
+        opacity: 70%;
+        border: none;
+    }
+    #home{
+        height: 100vh;
+    }
+    .introContent{
+        font-size: 9vw;
+    }
+    .introPara {
+        font-size: 4.5vw;
+    }
+
+    /* ---------------------------------- */
+/* 
+    #about{
+          height: 100vh; 
+    }
+    .aboutInfo{
+        width: 85vw;
+    }
+    .aboutInfo p{
+        font-size: 1rem;
+    }
+    .socialIconsList{
+        text-align: center;
+        display: inline-block;
+    }
+    .socialIcon{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    } */
+
+    /* ----------------------------------- */
+
+} 

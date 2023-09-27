@@ -1,0 +1,45 @@
+#singleProject{
+    
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgb(30,30,30);
+    text-align: center;
+}  
+
+.projectHeading{
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectImages{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    max-width: 80vw;
+}
+
+.projImage{
+    object-fit: cover;
+    height: 65vh;
+    margin: 2rem 1rem;
+    border-radius: 1.5rem;
+}
+
+.projDesc{
+    padding: 1.5rem 1rem;
+    font-size: 1.4rem;
+    width: 70vw;
+    max-width: 70vw;
+}

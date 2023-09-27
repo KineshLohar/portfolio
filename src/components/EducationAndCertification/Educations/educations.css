@@ -1,0 +1,45 @@
+.education{
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+}
+
+.eduTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.eduBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.eduBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgb(50,50,50);
+    border-radius: 0.7rem;
+}
+
+.eduImage{
+    object-fit: cover;
+    height: 3.7rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.eduBarText>p{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}

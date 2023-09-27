@@ -1,0 +1,23 @@
+#workexp{
+    height:80vh;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#workexp>h1{
+    margin: 1rem;
+}
+
+#workexp>img{
+    height: 25rem;
+    width: 30rem;
+    max-width: 75vw;
+    max-height: 40vh;
+}

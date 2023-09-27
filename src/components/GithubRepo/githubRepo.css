@@ -1,0 +1,50 @@
+#github{
+    
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.githubHeading{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    max-width: 70vw;
+    text-align: center;
+}
+
+.gitRepoList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 85%;
+    text-align: left;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.gitBar{
+    color: aliceblue;
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgb(50,50,50);
+    border-radius: 0.7rem;
+    max-width: 70vw;
+}
+
+.gitBar p{
+    color: aliceblue;
+    margin-top: 0.8rem;
+    font-size: 1rem; 
+}

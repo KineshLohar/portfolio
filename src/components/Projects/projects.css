@@ -1,0 +1,71 @@
+#projects{
+    
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projectsHeading{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 85%;
+    text-align: left;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.projectCard{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgb(50,50,50);
+    border-radius: 0.7rem;
+    justify-content: center;
+}
+
+.previewImage{
+    object-fit: contain;
+    max-width: fit-content;
+    height: 20rem;
+    width: 16rem;
+    align-self: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projectStack{
+    margin-top: 0.5rem;
+    font-size: 1rem;  
+}
+.btnProject{
+    background: white;
+    margin: 0.8rem 0rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    /* border: 2px solid #FFB000; */
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: small;
+    cursor: pointer;
+}
