@@ -32,13 +32,13 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/portfolio" element={<Home />} /> 
-          <Route path="/portfolio/educationandcertification" element={<EducationAndCertification />} />
-          <Route path="/portfolio/workexperience" element={<WorkExperience />} />
-          <Route path="/portfolio/skills" element={<Skills />} />
-          <Route path="/portfolio/projects" element={<Projects />} />
-          <Route path="/portfolio/githubrepo" element={<GithubRepo />} />
-          <Route path="/portfolio/singleproject/:index" element={<SingleProject />} />
+          <Route path="/" element={<Home />} /> 
+          <Route path="/educationandcertification" element={<EducationAndCertification />} />
+          <Route path="/workexperience" element={<WorkExperience />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/githubrepo" element={<GithubRepo />} />
+          <Route path="/singleproject/:index" element={<SingleProject />} />
         </Routes>
         <Footer />
       </div>
