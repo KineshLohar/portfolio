@@ -36,10 +36,10 @@ const Navbar = () => {
             <div className="navMenu" style={{display : showMenu ? 'flex': 'none'}}>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"}  to="/" onClick={()=>setShowMenu(false)}>Home</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/educationandcertification" onClick={()=>setShowMenu(false)}>Education and Certification</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/workexperience" onClick={()=>setShowMenu(false)}>Work Exp</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/workexperience" onClick={()=>setShowMenu(false)}>Work Experience</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/skills" onClick={()=>setShowMenu(false)}>Skills</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/projects" onClick={()=>setShowMenu(false)}>Projects</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/githubrepo" onClick={()=>setShowMenu(false)}>Github Repos</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/githubrepo" onClick={()=>setShowMenu(false)}>Github Repositories</NavLink>
             </div>
         </nav>
     )
