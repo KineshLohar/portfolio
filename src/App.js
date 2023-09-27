@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useLocation,
