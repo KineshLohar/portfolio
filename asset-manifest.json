@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.24caf837.css",
-    "main.js": "/portfolio/static/js/main.12d27440.js",
+    "main.css": "/portfolio/static/css/main.10537928.css",
+    "main.js": "/portfolio/static/js/main.505a937c.js",
     "static/media/waiting.gif": "/portfolio/static/media/waiting.63dd28529b3484637784.gif",
     "static/media/mernblog2.png": "/portfolio/static/media/mernblog2.b9fcc67ff4c077922363.png",
     "static/media/educationcertification.jpeg": "/portfolio/static/media/educationcertification.0dbddc4a2ca44a66c5d8.jpeg",
@@ -25,11 +25,11 @@
     "static/media/my added locations.jpg": "/portfolio/static/media/my added locations.49dfdf31edf95f101c4d.jpg",
     "static/media/to-do-list-ejs.png": "/portfolio/static/media/to-do-list-ejs.6a2fb64a2ceb96e44852.png",
     "index.html": "/portfolio/index.html",
-    "main.24caf837.css.map": "/portfolio/static/css/main.24caf837.css.map",
-    "main.12d27440.js.map": "/portfolio/static/js/main.12d27440.js.map"
+    "main.10537928.css.map": "/portfolio/static/css/main.10537928.css.map",
+    "main.505a937c.js.map": "/portfolio/static/js/main.505a937c.js.map"
   },
   "entrypoints": [
-    "static/css/main.24caf837.css",
-    "static/js/main.12d27440.js"
+    "static/css/main.10537928.css",
+    "static/js/main.505a937c.js"
   ]
 }
