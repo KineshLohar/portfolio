@@ -32,7 +32,6 @@
 
 .projImage{
     object-fit: cover;
-    height: 70vh;
     width: 60vw;
     margin: 2rem 1rem;
     border-radius: 1.5rem;
