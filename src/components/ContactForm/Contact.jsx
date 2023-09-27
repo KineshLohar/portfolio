@@ -4,12 +4,16 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
+    const serviceKey = process.env.REACT_APP_serviceToken;
+    const templateKey = process.env.REACT_APP_templateToken;
+    const secretKey = process.env.REACT_APP_secretKeyEmailJs;
+
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_89b1mxn', 'template_zm316jh', form.current, '6zhTPUdRftebapk1p')
+        emailjs.sendForm(serviceKey, templateKey, form.current, secretKey)
           .then((result) => {
               console.log(result.text);
               e.target.reset();
