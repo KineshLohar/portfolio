@@ -25,21 +25,21 @@ const Navbar = () => {
                 <Link className="desktopMenuListItem" to="/githubrepo">Github Repos</Link> */}
 
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"}  to="/portfolio">Home</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/educationandcertification">Education and Certification</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/workexperience">Work Exp</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/skills">Skills</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/projects">Projects</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/githubrepo">Github Repos</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/portfolio/educationandcertification">Education and Certification</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/portfolio/workexperience">Work Exp</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/portfolio/skills">Skills</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/portfolio/projects">Projects</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/portfolio/githubrepo">Github Repos</NavLink>
 
             </div>
             <FontAwesomeIcon icon={faBars} className="mobMenu" onClick={()=>setShowMenu(!showMenu)}/>
             <div className="navMenu" style={{display : showMenu ? 'flex': 'none'}}>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"}  to="/" onClick={()=>setShowMenu(false)}>Home</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/educationandcertification" onClick={()=>setShowMenu(false)}>Education and Certification</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/workexperience" onClick={()=>setShowMenu(false)}>Work Exp</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/skills" onClick={()=>setShowMenu(false)}>Skills</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/projects" onClick={()=>setShowMenu(false)}>Projects</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/githubrepo" onClick={()=>setShowMenu(false)}>Github Repos</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"}  to="/portfolio" onClick={()=>setShowMenu(false)}>Home</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/portfolio/educationandcertification" onClick={()=>setShowMenu(false)}>Education and Certification</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/portfolio/workexperience" onClick={()=>setShowMenu(false)}>Work Exp</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/portfolio/skills" onClick={()=>setShowMenu(false)}>Skills</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/portfolio/projects" onClick={()=>setShowMenu(false)}>Projects</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/portfolio/githubrepo" onClick={()=>setShowMenu(false)}>Github Repos</NavLink>
             </div>
         </nav>
     )

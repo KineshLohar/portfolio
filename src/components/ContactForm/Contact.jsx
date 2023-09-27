@@ -1,28 +1,54 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import './contact.css';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-
     const serviceKey = process.env.REACT_APP_serviceToken;
     const templateKey = process.env.REACT_APP_templateToken;
     const secretKey = process.env.REACT_APP_secretKeyEmailJs;
 
     const form = useRef();
+    const [nameError, setNameError] = useState("");
+    const [emailError, setEmailError] = useState("");
+    const [messageError, setMessageError] = useState("");
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
+        
+        // Validate name
+        if (!form.current.user_name.value.trim()) {
+            setNameError("Name is required");
+            return;
+        } else {
+            setNameError("");
+        }
+
+        // Validate email
+        const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+        if (!form.current.user_email.value.trim() || !emailRegex.test(form.current.user_email.value.trim())) {
+            setEmailError("Valid email is required");
+            return;
+        } else {
+            setEmailError("");
+        }
+
+        // Validate message
+        if (!form.current.message.value.trim()) {
+            setMessageError("Message is required");
+            return;
+        } else {
+            setMessageError("");
+        }
+
         emailjs.sendForm(serviceKey, templateKey, form.current, secretKey)
           .then((result) => {
               console.log(result.text);
               e.target.reset();
               alert("Message Sent");
-              
           }, (error) => {
               console.log(error.text);
           });
-      };
+    };
 
     return (
         <section id="contactPage">
@@ -30,13 +56,15 @@ const Contact = () => {
             <span className="contactDesc">Please fill out the form to discuss any work opportunities.</span>
             <form ref={form} className="contactForm" onSubmit={sendEmail}>
                 <input type="text" className="name" placeholder="Your Name" name="user_name" />
+                {nameError && <div className="error">{nameError}</div>}
                 <input type="email" className="email" placeholder="Your Email" name="user_email"/>
-                <textarea className="msg" name="message"  rows="5" placeholder="Your Message" ></textarea>
-                <button type="submit" value='send' className="submitBtn">Submit</button>
+                {emailError && <div className="error">{emailError}</div>}
+                <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
+                {messageError && <div className="error">{messageError}</div>}
+                <button type="submit" value='send' className="submitBtn">Send</button>
             </form>
         </section>
     )
 };
-
 
 export default Contact;
