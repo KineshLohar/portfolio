@@ -26,10 +26,10 @@ const Navbar = () => {
 
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"}  to="/">Home</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/educationandcertification">Education and Certification</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/workexperience">Work Exp</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/workexperience">Work <Experience></Experience></NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/skills">Skills</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/projects">Projects</NavLink>
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/githubrepo">Github Repos</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/githubrepo">Github Repositories</NavLink>
 
             </div>
             <FontAwesomeIcon icon={faBars} className="mobMenu" onClick={()=>setShowMenu(!showMenu)}/>
