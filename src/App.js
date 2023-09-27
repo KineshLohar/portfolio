@@ -27,7 +27,7 @@ const Wrapper = ({children}) => {
 function App() {
 
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <Wrapper>
       <div className="App">
         <Navbar />
