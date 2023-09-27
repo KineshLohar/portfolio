@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <Link to='/'><img src={navbarlogo} alt="navbar-logo" className="logo"/></Link>
+            <Link to='/portfolio'><img src={navbarlogo} alt="navbar-logo" className="logo"/></Link>
             <div className="desktopMenu">
 
                 {/* <Link className="desktopMenuListItem"  to="/">Home</Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link className="desktopMenuListItem" to="/projects">Projects</Link>
                 <Link className="desktopMenuListItem" to="/githubrepo">Github Repos</Link> */}
 
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"}  to="/">Home</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"}  to="/portfolio">Home</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/educationandcertification">Education and Certification</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/workexperience">Work Exp</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/skills">Skills</NavLink>
@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
             <FontAwesomeIcon icon={faBars} className="mobMenu" onClick={()=>setShowMenu(!showMenu)}/>
             <div className="navMenu" style={{display : showMenu ? 'flex': 'none'}}>
-                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"}  to="/" onClick={()=>setShowMenu(false)}>Home</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"}  to="/portfolio" onClick={()=>setShowMenu(false)}>Home</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/educationandcertification" onClick={()=>setShowMenu(false)}>Education and Certification</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/workexperience" onClick={()=>setShowMenu(false)}>Work Exp</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/skills" onClick={()=>setShowMenu(false)}>Skills</NavLink>
