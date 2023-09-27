@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link className="desktopMenuListItem" to="/projects">Projects</Link>
                 <Link className="desktopMenuListItem" to="/githubrepo">Github Repos</Link> */}
 
-                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"}  to="/">Home</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"}  to="/portfolio">Home</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/educationandcertification">Education and Certification</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/workexperience">Work Exp</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/skills">Skills</NavLink>
