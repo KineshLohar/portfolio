@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import {
-  HashRouter as Router,
+  HashRouter,
   Routes,
   Route,
   useLocation,
@@ -27,12 +27,14 @@ const Wrapper = ({children}) => {
 function App() {
 
   return (
-    <Router basename="/portfolio">
+    <>
+    
+    <HashRouter>
       <Wrapper>
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/portfolio" element={<Home />} /> 
+          <Route path="/" element={<Home />} /> 
           <Route path="/educationandcertification" element={<EducationAndCertification />} />
           <Route path="/workexperience" element={<WorkExperience />} />
           <Route path="/skills" element={<Skills />} />
@@ -43,7 +45,8 @@ function App() {
         <Footer />
       </div>
       </Wrapper>
-    </Router>
+      </HashRouter>
+    </>
   );
 }
 
