@@ -29,13 +29,18 @@ const TicTacToe = () => {
             return 0;
         }        
         if(count % 2 === 0){
-            e.target.innerHTML = `<img src='${crossIcon}'>`;
-            data[num] = 'x';
-            setCount(++count);
+            if(data[num] === ''){
+                e.target.innerHTML = `<img src='${crossIcon}'>`;
+                data[num] = 'x';
+                setCount(++count);
+            }  
         } else {
-            e.target.innerHTML = `<img src='${circeIcon}'>`;
-            data[num] = 'o';
-            setCount(++count);
+
+            if(data[num] === ''){
+                e.target.innerHTML = `<img src='${circeIcon}'>`;
+                data[num] = 'o';
+                setCount(++count);
+            }
             }
             checkWin();
     }
