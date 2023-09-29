@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import './tictactoe.css';
 import circeIcon from './assets/circle.png';
 import crossIcon from './assets/cross.png';
@@ -91,6 +91,11 @@ const TicTacToe = () => {
         })
         setCount(0);
     }
+
+    useEffect(()=>{
+       resetBoard();
+       // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
 
     return (
         <div className="container">
