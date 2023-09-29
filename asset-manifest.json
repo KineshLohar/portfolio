@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cc43aa62.css",
-    "main.js": "/portfolio/static/js/main.00157b61.js",
+    "main.js": "/portfolio/static/js/main.4326a2bc.js",
     "static/media/waiting.gif": "/portfolio/static/media/waiting.63dd28529b3484637784.gif",
     "static/media/mernblog2.png": "/portfolio/static/media/mernblog2.b9fcc67ff4c077922363.png",
     "static/media/educationcertification.jpeg": "/portfolio/static/media/educationcertification.0dbddc4a2ca44a66c5d8.jpeg",
@@ -26,10 +26,10 @@
     "static/media/to-do-list-ejs.png": "/portfolio/static/media/to-do-list-ejs.6a2fb64a2ceb96e44852.png",
     "index.html": "/portfolio/index.html",
     "main.cc43aa62.css.map": "/portfolio/static/css/main.cc43aa62.css.map",
-    "main.00157b61.js.map": "/portfolio/static/js/main.00157b61.js.map"
+    "main.4326a2bc.js.map": "/portfolio/static/js/main.4326a2bc.js.map"
   },
   "entrypoints": [
     "static/css/main.cc43aa62.css",
-    "static/js/main.00157b61.js"
+    "static/js/main.4326a2bc.js"
   ]
 }
