@@ -4,6 +4,10 @@ const programmingQuotes = [
       quote: "Talk is cheap. Show me the code."
     },
     {
+        author: "Kinesh Lohar",
+        quote: "It's better to be real than to be perfect."
+    },
+    {
       author: "Bill Gates",
       quote: "It's fine to celebrate success, but it is more important to heed the lessons of failure."
     },
@@ -74,6 +78,10 @@ const programmingQuotes = [
     {
       author: "Margaret Hamilton",
       quote: "There was no choice but to be pioneers."
+    },
+    {
+        author: "Kinesh Lohar",
+        quote: "It's better to be real than to be perfect."
     },
     {
       author: "Larry Page",
@@ -158,6 +166,10 @@ const programmingQuotes = [
     {
       author: "Yoda",
       quote: "Do or do not, there is no try."
+    },
+    {
+        author: "Kinesh Lohar",
+        quote: "It's better to be real than to be perfect."
     },
     {
       author: "Rasmus Lerdorf",
@@ -276,6 +288,10 @@ const programmingQuotes = [
       quote: "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies."
     },
     {
+        author: "Kinesh Lohar",
+        quote: "It's better to be real than to be perfect."
+    },
+    {
       author: "Ken Thompson",
       quote: "One of my most productive days was throwing away 1,000 lines of code."
     },
@@ -386,6 +402,10 @@ const programmingQuotes = [
     {
       author: "Alan Turing",
       quote: "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+    },
+    {
+        author: "Kinesh Lohar",
+        quote: "It's better to be real than to be perfect."
     },
   ];
   
