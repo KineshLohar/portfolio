@@ -1,0 +1,48 @@
+#quoteSection{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quoteBar{
+    width: 65vw;
+}
+
+.quoteTitle{
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.quoteAuthor{
+    font-style: italic;
+}
+
+@media screen and (max-width:780px) {
+    .quoteBar{
+        width: 75vw;
+    }
+
+    .quoteTitle{
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    .quoteAuthor{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .quoteBar{
+        width: 80vw;
+    }
+    .quoteTitle{
+        font-size: 1.5rem;
+    }
+    .quoteAuthor{
+        font-size: 1.1rem;
+    }
+}

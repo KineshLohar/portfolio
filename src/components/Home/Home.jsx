@@ -9,6 +9,7 @@ import backgroundImg from '../../assets/photo-main.jpg';
 import Contact from "../ContactForm/Contact";
 import Hyperlinks from "../Hyperlinks/Hyperlinks";
 import About from "../About/About";
+import RandomQuoteGenerator from "../RandomQuoteGenerator/RandomQuoteGenerator";
 // import Footer from "../Footer/Footer";
 
 
@@ -29,6 +30,8 @@ const Home = () => {
                 {/* <img src={backgroundImg} alt="Profile" className="bg2" /> */}
             </div> 
         </section>
+        <hr />
+        <RandomQuoteGenerator />
         <hr />
         <About />
         <hr />
