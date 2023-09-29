@@ -22,7 +22,7 @@ const Contact = () => {
         
         // Validate name
         const nameRegex = /^[A-Za-z\s]+$/; 
-        if (!form.current.user_name.value.trim() && !nameRegex.test(form.current.user_name.value.trim())) {
+        if (!form.current.user_name.value.trim() || !nameRegex.test(form.current.user_name.value.trim())) {
             setNameError("Valid name is required (no numbers allowed)");
             return;
         } else {
