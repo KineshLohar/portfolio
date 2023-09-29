@@ -86,7 +86,8 @@ const TicTacToe = () => {
         data = ['','','','','','','','',''];
         titleRef.current.innerHTML = 'Tic Tac Toe Game In React';
         box_array.map((e)=>{
-            e.current.innerHTML = "";
+            return e.current.innerHTML = "";
+            
         })
         setCount(0);
     }
