@@ -31,6 +31,7 @@
     margin: auto;
     justify-content: center;
     align-items: center;
+    max-width: 90vw;
 }
 
 .ticBoxes{
@@ -60,4 +61,22 @@
 
 .ticBoxes img{
     margin: 1.5rem;
+}
+
+@media screen and (max-width:480px) {
+    
+    .soloGameTitle{
+        font-size: 1.8rem ;
+    }
+    .tictacBoard{
+        height: 30rem;
+    }
+    .ticBoxes{
+        height: 7rem;
+        width:  7rem;
+    }
+
+
+
+
 }
