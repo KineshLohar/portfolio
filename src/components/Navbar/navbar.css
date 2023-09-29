@@ -73,7 +73,7 @@
     border: none;
 }
 
-@media screen and (max-width:970px) {
+@media screen and (max-width:1064px) {
     .mobMenu{
         display:flex;
         margin-right: 2rem;

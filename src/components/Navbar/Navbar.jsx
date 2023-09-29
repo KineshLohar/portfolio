@@ -29,6 +29,7 @@ const Navbar = () => {
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/workexperience">Work Experience</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/skills">Skills</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/projects">Projects</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/games">Games</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "desktopMenuListItem pending" : isActive ? "desktopMenuListItem active" : "desktopMenuListItem"} to="/githubrepo">Github Repositories</NavLink>
 
             </div>
@@ -39,6 +40,7 @@ const Navbar = () => {
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/workexperience" onClick={()=>setShowMenu(false)}>Work Experience</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/skills" onClick={()=>setShowMenu(false)}>Skills</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/projects" onClick={()=>setShowMenu(false)}>Projects</NavLink>
+                <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/games" onClick={()=>setShowMenu(false)}>Games</NavLink>
                 <NavLink className={({ isActive, isPending }) => isPending ? "listItem pending" : isActive ? "listItem active" : "listItem"} to="/githubrepo" onClick={()=>setShowMenu(false)}>Github Repositories</NavLink>
             </div>
         </nav>

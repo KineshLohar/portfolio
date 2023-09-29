@@ -15,6 +15,12 @@ import GithubRepo from './components/GithubRepo/GithubRepo';
 import Projects from './components/Projects/Projects.jsx';
 import Footer from "./components/Footer/Footer";
 import SingleProject from "./components/Projects/SingleProject/SingleProject";
+import Games from "./components/Games/Games.jsx";
+
+// games import 
+
+import TicTacToe from './components/Games/Tictactoe/TicTacToe.jsx'
+
 
 const Wrapper = ({children}) => {
   const location = useLocation();
@@ -38,7 +44,14 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/githubrepo" element={<GithubRepo />} />
+          <Route path="/games" element={<Games />} />
           <Route path="/singleproject/:index" element={<SingleProject />} />
+
+
+          <Route path="/tictactoe" element={<TicTacToe />} />
+
+
+
         </Routes>
         <Footer />
       </div>
