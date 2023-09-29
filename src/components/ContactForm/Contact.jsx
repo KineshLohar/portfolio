@@ -14,13 +14,16 @@ const Contact = () => {
     const [messageError, setMessageError] = useState("");
     const [loader, setLoader] = useState(false);
 
+
+
     const sendEmail = (e) => {
         setLoader(true);
         e.preventDefault();
         
         // Validate name
-        if (!form.current.user_name.value.trim()) {
-            setNameError("Name is required");
+        const nameRegex = /^[A-Za-z\s]+$/; 
+        if (!form.current.user_name.value.trim() && !nameRegex.test(form.current.user_name.value.trim())) {
+            setNameError("Valid name is required (no numbers allowed)");
             return;
         } else {
             setNameError("");
