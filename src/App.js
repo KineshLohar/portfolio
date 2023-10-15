@@ -50,8 +50,6 @@ function App() {
 
           <Route path="/tictactoe" element={<TicTacToe />} />
 
-
-
         </Routes>
         <Footer />
       </div>

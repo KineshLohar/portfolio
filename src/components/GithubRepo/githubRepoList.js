@@ -21,11 +21,22 @@ let gitRepoList = [
         techStack : "React Js, ExpressJs, NodeJs, MongoDB"
     },
     
+    {
+        repoName : "Car Seller App UI",
+        repoUrl : "https://github.com/KineshLohar/carsellerapp_assignment1",
+        techStack : "ReactJS, FontAwesome"
+    },
+    {
+        repoName : "Property Rental App",
+        repoUrl : "https://github.com/KineshLohar/propertyrentapp_assignment2",
+        techStack : "ReactJS, FontAwesome"
+    },
     // {
     //     repoName : "",
     //     repoUrl : "",
     //     techStack : ""
     // },
+    
 ]
 
 export default gitRepoList;
